@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                <meta charset="UTF-8">
+            <title>California</title>
+            <link rel="stylesheet" type="text/css" href="main.css" />
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script src="script.js"></script>
+</head>
+
+    <section class="page">
+
+
+    <!--HEADER-->    
+        <header> 
+            <div class="FullHeader">
+                <div>
+                    <h1>CALIFORNIA</h1>
+                    <p id="p1">"Crafting sun-kissed dreams: California's famed for Hollywood glitz, Silicon Valley innovation, surf culture,
+                    Redwood majesty, and diverse landscapes."
+                    </p>
+                </div>
+            </div>
+        </header>
+        <body>
+
+    <!--NAVBAR-->
+    <section>
+        <nav>
+            <div class="NavBar"> 
+                <ul class="nav">
+                <li><a href="LosAng.html" class="nav">LOS ANGELES<i class="fa-solid fa-camera"></i></a></li>
+                <li><a href="SanDiego.html" class="nav">SAN DIEGO<i class="fa-solid fa-fish"></i></i></a></li>
+                <li><a href="SanFran.html" class="nav">SAN FRANCISCO<i class="fa-solid fa-bridge"></i></a></li>
+                </ul>    
+            </div>
+        </nav>
+    </section>
+
+
+    <section>
+        <div class="ContactMain">
+            <h2 class="FunFacts">Get in Touch</h2>
+            <div class="ContactMain2">
+            <form id="contactForm">
+                <label for="firstName" >First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                <br>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="Enter your email address" required>
+                <br>
+                <label for="confirmEmail">Confirm Email:</label>
+                <input type="email" id="confirm-email" placeholder="Confirm your email address" required>
+                <p id="message"></p>
+                <br>
+                <br>
+
+                <label for="question">Ask a Question:</label>
+                <textarea id="question" name="question" placeholder="Type your question here"></textarea>
+                <br>
+                <br>
+                <input type="button" onclick="checkEmail()" value="Submit">
+            </form>
+
+            <script src="script.js"></script>
+
+            </div>
+        </div>
+    </section>    
+
+    <section>
+            <div class="unorderedList">
+                <a href="contact.html" class="footer ">CONTACT</a>
+            </div>
+
+    </section>
+
+            </body>
+    
+</html>
