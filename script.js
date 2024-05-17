@@ -9,7 +9,7 @@ function checkEmail(){
             message.textContent ="Emails match!";
         }
         else { 
-                message.textContent = "Passwords don't match";
+                message.textContent = "Emails do not match";
                 }
         }
 
